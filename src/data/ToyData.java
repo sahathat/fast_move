@@ -23,11 +23,11 @@ public class ToyData {
     }
 
     public static Parcel[] getParcels() {
-        Parcel[] parcels = new Parcel[1];
+        Parcel[] parcels = new Parcel[3];
         // your code
         parcels[0] = new Parcel(5,ParcelStatus.READY_TO_SHIP,new Location(2,1));
-        //parcels[1] = new Parcel(1,ParcelStatus.DELIVERED,new Location(8,9));
-        //parcels[2] = new Parcel(15,ParcelStatus.SHIPPING,new Location(10,-5));
+        parcels[1] = new Parcel(1,ParcelStatus.DELIVERED,new Location(8,9));
+        parcels[2] = new Parcel(15,ParcelStatus.SHIPPING,new Location(10,-5));
         return parcels;
     }
 
