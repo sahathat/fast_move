@@ -37,7 +37,7 @@ public class Parcel {
 
     @Override
     public String toString() {
-        return "weight=" + weight + "Kg, status=" + status + ", location=" + location;
+        return "weight = " + weight + "Kg, status = " + status + ", location = " + location;
     }
 
 

@@ -6,8 +6,8 @@ public class StreamingStat {
     private int n;
 
     public StreamingStat(String name) {
-        this.name=name;
-        this.sum=0;
+        this.name = name;
+        this.sum = 0;
         this.max = 0;
         this.min = Double.POSITIVE_INFINITY;
         this.lastValue = 0;
