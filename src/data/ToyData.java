@@ -1,29 +1,33 @@
 package data;
 
 import base.Bike;
+import base.Location;
 import base.Parcel;
+import base.ParcelStatus;
 import base.Person;
 
 public class ToyData {
 
     public static Bike[] getBikes() {
-        Bike[] bikes = new Bike[3];
+        Bike[] bikes = new Bike[1];
         // your code
-
+        bikes[0] = new Bike("Jone",12);
         return bikes;
     }
 
     public static Person[] getPerson() {
-        Person[] person = new Person[3];
+        Person[] person = new Person[1];
         // your code
-
+        person[0] = new Person("Journey","Map");
         return person;
     }
 
     public static Parcel[] getParcels() {
-        Parcel[] parcels = new Parcel[10];
+        Parcel[] parcels = new Parcel[1];
         // your code
-
+        parcels[0] = new Parcel(5,ParcelStatus.READY_TO_SHIP,new Location(2,1));
+        //parcels[1] = new Parcel(1,ParcelStatus.DELIVERED,new Location(8,9));
+        //parcels[2] = new Parcel(15,ParcelStatus.SHIPPING,new Location(10,-5));
         return parcels;
     }
 
